@@ -1,0 +1,54 @@
+* {
+    font-family: "Brush Script MT", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(182, 236, 218);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+   display: table-cell;
+   vertical-align: middle;
+   font-size: 30px;
+}
+
+.title {
+    
+    text-decoration: underline;
+    margin-bottom: 30px;
+
+}
+
+.text {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: circle;
+    width: 400px;
+    margin: 0px;
+}
+
+li {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 41, 102);
+}
+
+.list  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
