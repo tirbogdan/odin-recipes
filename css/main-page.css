@@ -1,58 +1,58 @@
 * {
-    font-family: "Brush Script MT", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    box-sizing: border-box;
+  font-family: "Brush Script MT", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 html {
-    display: table;
-    margin: auto;
-    background-image: linear-gradient(45deg, rgba(220, 243, 237, 0.497), rgb(0, 247, 222));
-    background-repeat: no-repeat;
+  display: table;
+  margin: auto;
+  background-image: linear-gradient(
+    45deg,
+    rgba(220, 243, 237, 0.497),
+    rgb(0, 247, 222)
+  );
+  background-repeat: no-repeat;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 30px;
-   
+  height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
 }
 
 .title {
-    
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    text-decoration-thickness: 4px;
-    margin-bottom: 30px;
-
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 4px;
+  margin-bottom: 30px;
 }
 
 .text {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-.list-container  {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.list-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .list {
-    list-style-type: circle;
-    width: 400px;
-    margin: 0px;
+  list-style-type: circle;
+  width: 400px;
+  margin: 0px;
 }
 
 .list-item {
-    text-align: left;
+  text-align: left;
 }
 
-.link {
-    text-decoration: none;
-    color: rgb(0, 24, 253);
+.link,
+.link:visited {
+  text-decoration: none;
+  color: rgb(0, 24, 253);
 }
-
-
-
